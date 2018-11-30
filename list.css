@@ -1,0 +1,189 @@
+@font-face{
+	font-family: "FalturaAnimals";
+		src: url(FalturaAnimals.ttf);
+		
+}
+@font-face{
+	font-family: "CaviarDreams";
+		src: url(CaviarDreams.ttf);
+}
+@font-face{
+	font-family:"Metropolis-Regular";
+		src: url(Metropolis-Regular.otf);
+	
+}
+nav {
+	background: rgba(52,221,221,0.6);
+	z-index: 110;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+}	
+body{
+	margin: 0;
+	padding: 0;
+}
+.inner{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+nav a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 60px;
+	opacity: 100%;
+	font-family: "FalturaAnimals";
+}
+.stopfloat{
+	float:none;
+}
+ nav img{
+	 width: 150px;
+	 height: 100px;
+	 margin-left: 75px;
+	 margin-right: 75px;
+ }
+
+nav a:hover{
+	color: #00308F;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+	
+}
+
+nav div div ul li {
+	float: none;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-right: 10px;
+	font-size: 44px;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	float: none;
+	text-align: left;
+	font-size: 44px;
+	font-family: CaviarDreams;
+}
+nav div div ul {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: rgba(52,221,221,0.6);
+}
+
+nav div div:hover ul{
+	display: block;
+}
+
+
+
+.sidebarnav{
+	background: rgba(137,232,148, 0.8);
+	position: fixed;
+	left: 0;
+	top: 150px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	border-radius: 0px 10px 10px 0px;
+	border: 1px line auto;
+	border-color: #89E894;
+	border-style: solid;
+	z-index: 110;
+	transition: width 2s;
+	overflow: hidden;
+	width: 0;
+	padding-left: 18px;
+}
+.sidebarnav:hover{
+	width: 250px;
+}
+
+
+.sidebarnav a{
+	text-decoration: none;
+	float: none;
+	font-size: 26px;
+	font-family: CaviarDreams;
+	color: white;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+div a:hover{
+	color: #00308F;
+}
+.container{
+	margin-top: 100px;
+	background: rgba(52,221,221,0.6);
+	height: 780px;
+	width: 500px;
+	margin-left: 325px;
+}
+.animallistbody{
+	margin-top: 10px;
+	background: white;
+	height: 735px;
+	width: 460px;
+	border-radius: 25px;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 10px;
+	text-align: center;
+	font-family:Metropolis-Regular;
+	font-size: 17px;
+	padding-top: 30px;
+	position: relative;
+}
+.column1{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	text-align: center;
+	width: 210px;
+}
+.column2{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-align: center;
+	width: 210px;
+}
+.animalboxtext{
+	text-align: center;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	color: #34DDDD;
+	font-family: CaviarDreams;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	
+}

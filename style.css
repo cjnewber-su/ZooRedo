@@ -1,0 +1,471 @@
+@font-face{
+	font-family: "FalturaAnimals";
+		src: url(FalturaAnimals.ttf);
+		
+}
+@font-face{
+	font-family: "CaviarDreams";
+		src: url(CaviarDreams.ttf);
+}
+@font-face{
+	font-family:"Metropolis-Regular";
+		src: url(Metropolis-Regular.otf);
+	
+}
+
+nav {
+	background: rgba(255,0,0,0.6);
+	z-index: 110;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+}	
+section{
+	padding-top: 100px;
+	margin-top: -100px;
+}
+	
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.inner{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+nav a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 60px;
+	opacity: 100%;
+	font-family: "FalturaAnimals";
+}
+
+
+.stopfloat{
+	float:none;
+}
+ nav img{
+	 width: 150px;
+	 height: 100px;
+	 margin-left: 75px;
+	 margin-right: 75px;
+ }
+
+nav a:hover{
+	color: #00308F;
+}
+
+
+
+#one{
+	height: 650px;
+	font-family: "FalturaAnimals";
+	padding-top: 100px;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+	
+}
+
+.welcome{
+	font-size: 150px;
+	text-align: center;
+	color: white;
+	margin-top: 305px;
+	border-radius: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+nav div div ul li {
+	float: none;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-right: 10px;
+	font-size: 44px;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	float: none;
+	text-align: left;
+	font-size: 44px;
+	font-family: CaviarDreams;
+}
+nav div div ul {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: rgba(52,221,221,0.6);
+}
+
+nav div div:hover ul{
+	display: block;
+}
+
+
+
+.sidebarnav{
+	background: rgba(137,232,148, 0.8);
+	position: fixed;
+	left: 0;
+	top: 150px;
+	
+	padding-top: 10px;
+	padding-bottom:10px;
+	border-radius: 0px 10px 10px 0px;
+	border: 1px line auto;
+	border-color: #89E894;
+	border-style: solid;
+	z-index: 110;
+	transition: width 2s;
+	overflow: hidden;
+	width: 0;
+	padding-left: 18px;
+}
+.sidebarnav:hover{
+	width: 175px;
+}
+
+.sidebarnav a{
+	text-decoration: none;
+	float: none;
+	font-size: 26px;
+	font-family: CaviarDreams;
+	color: white;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+div a:hover{
+	color: #00308F;
+}
+
+#two{
+	height: 700px;
+	font-family: FalturaAnimals;
+	font-size: 160px;
+	text-align: center;
+	float: none;
+	color: white;
+	margin-top: 410px;
+
+}
+
+.kidsbox1{
+	float: left;
+	height: 450px;
+	width: 366px;
+	border-radius: 20px;
+	border: 1px line auto;
+	border-style: solid;
+	border-color: FF5E5E;
+	background: rgba(255, 94, 94, 0.6);
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+	position: relative;
+}
+.boxtitle{
+	font-family: CaviarDreams;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.kidsbox2{
+	float: left;
+	height: 450px;
+	width: 366px;
+	border-radius: 20px;
+	border: 1px line auto;
+	border-style: solid;
+	border-color: FF5E5E;
+	background: rgba(255, 94, 94, 0.6);
+	margin-right: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+.kidsbox3{
+	float: left;
+	height: 450px;
+	width: 366px;
+	
+	margin-top: 20px;
+}
+.bigkidsbox{
+	width: 100%;
+	background: rgba(52,221,221,0.6);
+	height: 500px;
+	float: none;
+	
+	
+}
+#three{
+	height: 1000px;
+	font-family: FalturaAnimals;
+	font-size: 160px;
+	text-align: center;
+	float: none;
+	color: white;
+	margin-top: 200px;
+}
+.boxtext{
+	
+	font-family: Metropolis-Regular;
+	font-size: 30px;
+	color: black;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 120%;
+	
+}
+.learnmore{
+	position: absolute;
+	bottom: 40px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: CaviarDreams;
+	background-color: #A4FBA6;
+	padding: 10px;
+	font-size: 35px;
+	left: 78px;
+	color: black;
+	text-decoration: none;
+}
+.learnmore2{
+	
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: CaviarDreams;
+	background-color: #A4FBA6;
+	padding: 10px;
+	font-size: 25px;
+	left: 30px;
+	color: black;
+	text-decoration: none;
+
+}
+.brochure{
+	
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: CaviarDreams;
+	background-color: #A4FBA6;
+	padding: 10px;
+	font-size: 25px;
+	right: 30px;
+	color: black;
+	text-decoration: none;
+
+}
+.learnmore:hover{
+	background-color: #00308F;
+}
+.learnmore2:hover{
+	background-color: #00308F;
+}
+.brochure:hover{
+	background-color: #00308F;
+}
+.learnmore a{
+	text-decoration: none;
+	color: black;
+}
+.learnmore2 a{
+	text-decoration: none;
+	color: black;
+}
+.brochure a{
+	text-decoration: none;
+	color: black;
+}
+.learnmore a:hover{
+	background-color: #00308F;
+	color: black;
+}
+.learnmore2 a:hover{
+	background-color: #00308F;
+	color:black;
+}
+.brochure a:hover{
+	background-color: #00308F;
+	color:black;
+}
+.kidsbox3top{
+	height: 217px;
+	position: relative;
+	border-radius: 20px;
+	border: 1px line auto;
+	border-style: solid;
+	border-color: FF5E5E;
+	background: rgba(255, 94, 94, 0.6);
+}
+.kidsbox3bottom{
+	height: 217px;
+	margin-top: 10px;
+	position: relative;
+	border-radius: 20px;
+	border: 1px line auto;
+	border-style: solid;
+	border-color: FF5E5E;
+	background: rgba(255, 94, 94, 0.6);
+}
+.sspbox{
+	margin-top: 30px;
+	width: 550px;
+	height: 550px;
+	border-radius: 300px;
+	background: rgba(120,213,227, 0.8);
+	float: left;
+	border-style: solid;
+	border-color: #78D5E3;
+	border: 1px line auto;
+	position: relative;
+}
+#four{
+	height: 700px;
+	font-family: FalturaAnimals;
+	font-size: 160px;
+	text-align: center;
+	float: none;
+	color: white;
+}
+.volunteerbox{
+	width: 280px;
+	height: 400px;
+	background: rgba(137,232,148,0.6);
+	border-radius: 10px;
+	border: 1px line auto;
+	border-style: solid;
+	border-color: #89E894;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+
+
+#five{
+	height: 300px;
+	font-family: CaviarDreams;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	
+}
+@font-face {
+    font-family: 'si';
+    src: url('Psocicon.eot');
+    src: url('socicon.eot?#iefix') format('embedded-opentype'),
+         url('socicon.woff') format('woff'),
+         url('socicon.ttf') format('truetype'),
+         url('socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 44px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-googleplus {
+    background-color: #dd4b39;
+}
+.soc-googleplus:before {
+    content:'\e042';
+}
+
